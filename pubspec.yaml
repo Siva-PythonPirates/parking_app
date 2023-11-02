@@ -1,0 +1,36 @@
+name: parking_app
+description: A parking app built with Flutter.
+
+version: 1.0.0
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_flutter:
+  intl:
+  shared_preferences:
+  google_maps_flutter: ^2.0.6
+  location:
+  geolocator:
+  flutter_map:
+#  numberpicker:
+  firebase_database: ^10.1.1
+  firebase_core: ^2.10.0
+  firebase_auth:
+  cloud_firestore:
+  numberpicker: ^2.1.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  csv:
+  path_provider:
+#  path_provider_ex:
+flutter:
+  uses-material-design: true
+  assets:
+    - C:/Users/Sivashankar/parking_reservation_system/lib/assets/
